@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/895/642/non_2x/question-mark-on-blue-background-paper-art-style-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    text-align: center;
+    margin-top: 90px;
+}
+
+h1 {
+    color: #333;
+    font-size: 50px;
+    
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.no-of-tries {
+    margin: auto;
+    text-align: center;
+    
+}
+
+h2 {
+    color: #3f3f3f;
+    font-size: 35px;
+}
+h4 {
+    
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5d45a0;
+    transform: scale(1.3);
+}
+.Rules {
+    
+    text-align: left;
+    margin-left: 850px;
+  }
+  label{
+    font-size: 25px;
+  }

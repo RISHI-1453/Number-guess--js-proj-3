@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1><u>Number Guessing Application</u></h1>
+        <h2>Select a number between 1 to 100 , guess it!!!</h2>
+        <h2><u>Rules</u></h2>
+        <center>
+        <h4 class="Rules">1.Choose your number between 1 to 100.</h4>
+        <h4 class="Rules">2.Click the check button to check.</h4>
+        <h4 class="Rules">3.Using the hints try guessing the correct number.</h4>
+        <h4 class="Rules">4.Keep trying until you find the number.</h4>
+        <h3 class="Rules">Because the only failure is not trying.</h3>
+        </center>
+        <label for="Guess the number"><strong>Guess the number</strong></label>
+        <input type="number" id="n1" name="Guess the number" placeholder="Enter the Number">
+        <div id="res"></div>
+    </div>
+         <div class="no-of-tries">
+         <h2>No.of.tries: <span id= "tries">0</span></h2>
+         <button onclick="findNumber()">Check</button>
+        <button onclick="resetGame()">Reset</button>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
